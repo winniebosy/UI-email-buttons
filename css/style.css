@@ -1,0 +1,117 @@
+body{
+  background-color: #4b1248;
+}
+.title{
+  text-align:center;
+  
+}
+h1{
+  color:rgba(255,255,255);
+}
+.container{
+  width:500px;
+  height:600px;
+  border:2px ,#4b1248;
+  margin:auto;
+  display:flex;
+  flex-direction:column;
+  padding:10px;
+  
+}
+
+.btn-1,.btn-2, .btn-3, .btn-4, .btn-5, .btn-6, .btn-7, .btn-8, .btn-9, .btn-10{
+  margin:auto;
+  width:300px;
+  height:35px;
+  text-align:center;
+  padding:8px.8px.8px.8px;  
+  font-size:18px;
+  
+}
+a{
+  text-decoration:none;
+  color :rgba(255,255,255);
+  
+}
+.btn-1{
+  background-image:linear-gradient(to right, #360033, #0b8793);
+  border:2px, #360033;
+  
+}
+.btn-2{
+  background-image:linear-gradient(to right, #948e99, #2e1437);
+  border:2px, #948e99;
+  border-radius:20px 60px;
+  
+}
+.btn-3{
+  background-image:linear-gradient(to right, #d38312, #a83279);
+  border:2px, #d38312;
+  border-radius:30px 10px 30px 10px;
+  
+}
+.btn-4{
+  background-image:linear-gradient(to right, rgba(0,0,0,0.5), #4b6cb7, #812848);
+  border:2px, #9d50bb;
+  border-radius:6px 15px 4px 40px;
+  
+}
+.btn-5{
+  background-image:linear-gradient(to right, #948e99, #2e1437);
+  border:2px, #948e99;
+  border-radius:110px 70px 10px 110px;
+  
+}
+.btn-6{
+  background-image:linear-gradient(to right, #616161, #9bc5c3);
+  border:2px, #add100;
+  border-redius:80px 5px 45px;
+  
+}
+.btn-7{
+  background-image:linear-gradient(to right, #fbd3e9, #bb377d);
+  border:2px, #fbd3e9;
+  border-radius:150px 5px 150px 5px;
+  
+}
+.btn-8{
+  background-image:linear-gradient(to right, #606c88, #2e1437);
+  border:2px, #606c88;
+  
+}
+.btn-9{
+  background-image:linear-gradient(to right, #e6dada, #274046);
+  border:2px, #e6dada;
+  border-radius:2px 190px 45px;
+  
+}
+.btn-10{
+  background-image:linear-gradient(to right, #d3959b, #bfe6ba);
+  border:2px, #d3959b;
+  border-radius:20px;
+  
+}
+@media screen and (max-width:800px){
+  body{
+    overflow-x:hidden;
+  }
+  .container{
+max-width:100vh;
+    max-height:auto;
+  }
+  .k1{
+    font-size:12px;
+    text-align:center;
+  }
+  .btn-1,.btn-2, .btn-3, .btn-4, .btn-5, .btn-6, .btn-7, .btn-8, .btn-9, .btn-10{
+  margin:auto;
+  width:250px;
+  height:30px;
+  text-align:center;
+  padding:8px.8px.8px.8px;  
+  font-size:15px;
+  
+}
+}
+
+
